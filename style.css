@@ -3,3 +3,49 @@
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stripe-main{
+    background-color:aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stripe-informations{
+    background-color: blueviolet;
+}
+
+.informations{
+    display: flex;
+}
+
+.stripe-quote{
+    background-color: darkgray;
+}
+
+.stripe-call-to-action{
+    background-color: chartreuse;
+    display: flex;
+}
+
+footer{
+    background-color: cadetblue;
+}
