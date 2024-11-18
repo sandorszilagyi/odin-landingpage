@@ -11,16 +11,15 @@ body {
     margin-right: 10%;
 }
 
-
-img {
-    width: 100px;
-    height: 100px;
-}
-
 header{
     background-color: antiquewhite;
     display: flex;
     justify-content: space-between;
+}
+
+header img{
+    height: 64px;
+    width: auto;
 }
 
 .stripe-main{
@@ -29,12 +28,22 @@ header{
     justify-content: space-between;
 }
 
+.main-right img{
+    height: auto;
+    width: 400px;
+}
+
 .stripe-informations{
     background-color: blueviolet;
 }
 
 .informations{
     display: flex;
+}
+
+.informations img{
+    height: 64px;
+    width: auto;
 }
 
 .stripe-quote{
