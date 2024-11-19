@@ -48,14 +48,47 @@ nav{
 }
 
 .stripe-main{
-    background-color:aquamarine;
+    background-color: #1f2937;
     display: flex;
-    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
+.stripe-main h2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.stripe-main p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.stripe-main button{
+    color: white;
+    font-weight: bold;
+    background-color: #3882fa;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 24px ;
+    margin-top: 20px;
+}
+
+.main-left{
+    width: 50%;
+}
+
+.main-right{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
 .main-right img{
     height: auto;
-    width: 400px;
+    width: 500px;
 }
 
 .stripe-informations{
