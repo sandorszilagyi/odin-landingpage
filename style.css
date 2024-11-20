@@ -92,16 +92,41 @@ nav{
 }
 
 .stripe-informations{
-    background-color: blueviolet;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.stripe-informations h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .informations{
     display: flex;
+    gap: 32px;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: center;
+    width: 256px;
+    text-align: center;
 }
 
 .informations img{
-    height: 64px;
+    height: 128px;
     width: auto;
+    margin-bottom: 10px;
+    border: 4px solid #3882fa;
+    border-radius: 10%;
 }
 
 .stripe-quote{
