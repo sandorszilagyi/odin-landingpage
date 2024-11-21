@@ -7,9 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-left: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: #0e0e0e;
     display: flex;
     justify-content: space-between;
@@ -84,11 +83,11 @@ nav{
 .main-right{
     width: 50%;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 .main-right img{
     height: auto;
-    width: 500px;
+    width: 400px;
 }
 
 .stripe-informations{
