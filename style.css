@@ -7,8 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #0e0e0e;
     display: flex;
     justify-content: space-between;
@@ -87,7 +87,7 @@ nav{
 }
 .main-right img{
     height: auto;
-    width: 400px;
+    width: 480px;
 }
 
 .stripe-informations{
@@ -125,7 +125,7 @@ figure{
     height: 128px;
     width: auto;
     margin-bottom: 10px;
-    border: 4px solid #3882fa;
+    border: 4px solid #3882f6;
     border-radius: 10%;
 }
 
@@ -147,8 +147,42 @@ figure{
 }
 
 .stripe-call-to-action{
-    background-color: chartreuse;
+    background-color:white;
     display: flex;
+    justify-content: center;
+}
+
+.call-to-action{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #3882f6;
+    padding: 40px 100px 40px 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.call-to-action h4{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.call-to-action p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.call-to-action button{
+    color: white;
+    font-weight: 800;
+    background-color: #3882fa;
+    border: solid;
+    border-color: white;
+    border-radius: 8px;
+    padding: 10px 24px;
 }
 
 footer{
