@@ -59,7 +59,7 @@ nav{
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
-}
+}    
 
 .stripe-main p{
     font-size: 18px;
@@ -186,5 +186,12 @@ figure{
 }
 
 footer{
-    background-color: cadetblue;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+footer p{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
